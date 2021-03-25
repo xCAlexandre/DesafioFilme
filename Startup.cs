@@ -9,6 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using Bcc.Data;
+using Microsoft.EntityFrameworkCore;
+
+
 namespace Bcc
 {
     public class Startup
@@ -24,6 +28,7 @@ namespace Bcc
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<BccContext>(options => options.UseSqlite(Configuration.GetConnectionString("BccContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

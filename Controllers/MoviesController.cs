@@ -20,9 +20,16 @@ namespace Bcc.Controllers
         }
 
         // GET: Movies
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Movie.ToListAsync());
+            var movies = from m in _context.Movie
+                select m;
+
+            if(!String.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title.Contains(searchString));
+            }
+            return View(await movies.ToListAsync());
         }
 
         // GET: Movies/Details/5
@@ -65,7 +72,7 @@ namespace Bcc.Controllers
             return View(movie);
         }
 
-        // GET: Movies/Edit/5
+        // GET: Movies/Edit/
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)

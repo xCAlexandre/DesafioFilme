@@ -25,6 +25,7 @@ namespace Bcc.Models
                         Title = "Interstelar",
                         ReleaseDate = DateTime.Parse("2014-11-6"),
                         Genre = "Ficção Científica",
+                        Rating = "A",
                         Price = 14.99M
                     },
 
@@ -33,6 +34,7 @@ namespace Bcc.Models
                         Title = "Como Treinar Seu Dragão 2",
                         ReleaseDate = DateTime.Parse("2010-3-26"),
                         Genre = "Animação",
+                        Rating = "A",
                         Price = 10M
                     },
 
@@ -41,6 +43,7 @@ namespace Bcc.Models
                         Title = "Luca",
                         ReleaseDate = DateTime.Parse("2021-6-16"),
                         Genre = "Animação",
+                        Rating = "E",
                         Price = 133M
                     },
 
@@ -49,6 +52,7 @@ namespace Bcc.Models
                         Title = "Bastardos Inglorios",
                         ReleaseDate = DateTime.Parse("2009-10-9"),
                         Genre = "Ação",
+                        Rating = "B",
                         Price = 30M
                     }
 

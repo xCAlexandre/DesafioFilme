@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bcc.Migrations
 {
     [DbContext(typeof(BccContext))]
-    [Migration("20210401013456_InitialCreate")]
+    [Migration("20210415233908_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,6 +28,9 @@ namespace Bcc.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<string>("Rating")
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("ReleaseDate")

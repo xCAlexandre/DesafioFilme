@@ -10,5 +10,18 @@ namespace Bcc.Data
         }
 
         public DbSet<Movie> Movie {get; set;}
+        public DbSet<Actor> Actor {get; set;}
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder){
+
+            modelBuilder.Entity<Actor>().HasKey(x => new { x.Id });
+
+            modelBuilder.Entity<Movie>().HasKey(x => new { x.Id });
+
+            modelBuilder.Entity<Movie>()
+        .HasMany(x => x.Actor)
+        .WithOne(y => y.Movie);
+
+        }
     }
 }

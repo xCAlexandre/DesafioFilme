@@ -16,6 +16,25 @@ namespace Bcc.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.7");
 
+            modelBuilder.Entity("Bcc.Models.Actor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("MovieId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MovieId");
+
+                    b.ToTable("Actor");
+                });
+
             modelBuilder.Entity("Bcc.Models.Movie", b =>
                 {
                     b.Property<int>("Id")
@@ -23,23 +42,38 @@ namespace Bcc.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Genre")
-                        .HasColumnType("TEXT");
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasMaxLength(30);
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18, 2)");
 
                     b.Property<string>("Rating")
-                        .HasColumnType("TEXT");
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasMaxLength(5);
 
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
-                        .HasColumnType("TEXT");
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasMaxLength(60);
 
                     b.HasKey("Id");
 
                     b.ToTable("Movie");
+                });
+
+            modelBuilder.Entity("Bcc.Models.Actor", b =>
+                {
+                    b.HasOne("Bcc.Models.Movie", "Movie")
+                        .WithMany("Actor")
+                        .HasForeignKey("MovieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/favan/.dotnet/store/|arch|/|tfm|",
-      "/home/favan/.nuget/packages"
+      "C:\\Users\\Pichau\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Pichau\\.nuget\\packages"
     ]
   }
 }

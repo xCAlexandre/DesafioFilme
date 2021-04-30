@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace Bcc.Models
 {
@@ -22,5 +23,10 @@ namespace Bcc.Models
 
         [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$"), StringLength(5), Required]
         public string Rating {get; set;}
+
+        //public List<Actor> Actor {get;set;}
+
+        public List<Actor> Actor {get; set;}
+
     }
 }

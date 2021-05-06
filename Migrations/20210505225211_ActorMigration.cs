@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Bcc.Migrations
 {
-    public partial class Actor : Migration
+    public partial class ActorMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

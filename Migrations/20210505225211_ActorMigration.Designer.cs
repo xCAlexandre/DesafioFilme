@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bcc.Migrations
 {
     [DbContext(typeof(BccContext))]
-    [Migration("20210430002958_Actor")]
-    partial class Actor
+    [Migration("20210505225211_ActorMigration")]
+    partial class ActorMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -6,7 +6,8 @@ using System.Collections.Generic;
 namespace Bcc.Models
 {
     public class Actor
-    {
+    {   
+
         public int Id {get; set;}
         
         [RegularExpression(@"^[A-Z]+[a-zA-Z]*$"), Required, StringLength(30)]

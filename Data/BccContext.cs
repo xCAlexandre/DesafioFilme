@@ -19,8 +19,8 @@ namespace Bcc.Data
             modelBuilder.Entity<Movie>().HasKey(x => new { x.Id });
 
             modelBuilder.Entity<Movie>()
-        .HasMany(x => x.Actor)
-        .WithOne(y => y.Movie);
+                .HasMany(x => x.Actors)
+                .WithOne(y => y.Movie);
 
         }
     }

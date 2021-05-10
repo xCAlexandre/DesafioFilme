@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Bcc.csproj",
+  "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Bcc.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,198 +14402,198 @@
   "RootNamespace": "Bcc",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\ApiControllerWithContext.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\ApiControllerWithContext.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Movies\\Create.cshtml",
-      "TargetPath": "Views\\Movies\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Movies\\Delete.cshtml",
-      "TargetPath": "Views\\Movies\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Movies\\Edit.cshtml",
-      "TargetPath": "Views\\Movies\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Actors\\Index.cshtml",
-      "TargetPath": "Views\\Actors\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\Details.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Actors\\Edit.cshtml",
-      "TargetPath": "Views\\Actors\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Actors\\Details.cshtml",
-      "TargetPath": "Views\\Actors\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\EmptyController.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\EmptyController.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\HelloWorld\\Index.cshtml",
-      "TargetPath": "Views\\HelloWorld\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Movies\\Index.cshtml",
-      "TargetPath": "Views\\Movies\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\ControllerWithActions.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\ControllerWithActions.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\ApiControllerWithActions.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\ApiControllerWithActions.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ViewGenerator\\Delete.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\Create.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\ApiEmptyController.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\ApiEmptyController.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ViewGenerator\\Empty.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\Empty.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Movies\\Details.cshtml",
-      "TargetPath": "Views\\Movies\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\MvcControllerWithContext.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\MvcControllerWithContext.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\Empty.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\Empty.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\Delete.cshtml",
-      "TargetPath": "Templates\\ControllerGenerator\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ViewGenerator\\List.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ViewGenerator\\Create.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\HelloWorld\\Welcome.cshtml",
-      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\Edit.cshtml",
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\Edit.cshtml",
       "TargetPath": "Templates\\ControllerGenerator\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ControllerGenerator\\List.cshtml",
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\List.cshtml",
       "TargetPath": "Templates\\ControllerGenerator\\List.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ViewGenerator\\Edit.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ViewGenerator\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Templates\\ViewGenerator\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Actors\\Delete.cshtml",
-      "TargetPath": "Views\\Actors\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\Actors\\Create.cshtml",
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Actors\\Create.cshtml",
       "TargetPath": "Views\\Actors\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Templates\\ViewGenerator\\Details.cshtml",
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\Empty.cshtml",
+      "TargetPath": "Templates\\ControllerGenerator\\Empty.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Actors\\Index.cshtml",
+      "TargetPath": "Views\\Actors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Templates\\ControllerGenerator\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\MvcControllerWithContext.cshtml",
+      "TargetPath": "Templates\\ControllerGenerator\\MvcControllerWithContext.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Movies\\Create.cshtml",
+      "TargetPath": "Views\\Movies\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ViewGenerator\\Create.cshtml",
+      "TargetPath": "Templates\\ViewGenerator\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Movies\\Delete.cshtml",
+      "TargetPath": "Views\\Movies\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ViewGenerator\\Empty.cshtml",
+      "TargetPath": "Templates\\ViewGenerator\\Empty.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Movies\\Edit.cshtml",
+      "TargetPath": "Views\\Movies\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ViewGenerator\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Templates\\ViewGenerator\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Movies\\Details.cshtml",
+      "TargetPath": "Views\\Movies\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ViewGenerator\\List.cshtml",
+      "TargetPath": "Templates\\ViewGenerator\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\ControllerWithActions.cshtml",
+      "TargetPath": "Templates\\ControllerGenerator\\ControllerWithActions.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Actors\\Edit.cshtml",
+      "TargetPath": "Views\\Actors\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\EmptyController.cshtml",
+      "TargetPath": "Templates\\ControllerGenerator\\EmptyController.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ViewGenerator\\Details.cshtml",
       "TargetPath": "Templates\\ViewGenerator\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\luca-\\Desktop\\Faculdade\\3°Semeste\\DSI\\DesafioFilme\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\ApiControllerWithContext.cshtml",
+      "TargetPath": "Templates\\ControllerGenerator\\ApiControllerWithContext.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ViewGenerator\\Edit.cshtml",
+      "TargetPath": "Templates\\ViewGenerator\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Movies\\Index.cshtml",
+      "TargetPath": "Views\\Movies\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\ApiEmptyController.cshtml",
+      "TargetPath": "Templates\\ControllerGenerator\\ApiEmptyController.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Actors\\Details.cshtml",
+      "TargetPath": "Views\\Actors\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\Create.cshtml",
+      "TargetPath": "Templates\\ControllerGenerator\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\Details.cshtml",
+      "TargetPath": "Templates\\ControllerGenerator\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ViewGenerator\\Delete.cshtml",
+      "TargetPath": "Templates\\ViewGenerator\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\ApiControllerWithActions.cshtml",
+      "TargetPath": "Templates\\ControllerGenerator\\ApiControllerWithActions.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\HelloWorld\\Index.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\HelloWorld\\Welcome.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Templates\\ControllerGenerator\\Delete.cshtml",
+      "TargetPath": "Templates\\ControllerGenerator\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ProjetoIntegrador\\DesafioFilme\\Views\\Actors\\Delete.cshtml",
+      "TargetPath": "Views\\Actors\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],

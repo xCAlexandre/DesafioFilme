@@ -24,9 +24,13 @@ namespace Bcc.Models
         [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$"), StringLength(5), Required]
         public string Rating {get; set;}
 
-        //public List<Actor> Actor {get;set;}
 
-        public List<Actor> Actor {get; set;}
+        public List<Actor> Actors{get;set;}
+
+        // public List<Actor> GetActors(){
+        //     List<Actor> actors = new List<Actor>();
+        //     return actors;
+        // }
 
     }
 }

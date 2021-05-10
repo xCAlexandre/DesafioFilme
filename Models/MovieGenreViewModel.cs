@@ -9,5 +9,7 @@ namespace Bcc.Models
         public SelectList Genres {get; set;}
         public string MovieGenre {get; set;}
         public string SearchString {get; set;}
+        public List<Actor> Actors {get; set;}
+
     }
 }

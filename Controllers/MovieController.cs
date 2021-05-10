@@ -149,5 +149,11 @@ namespace Bcc.Controllers
         {
             return _context.Movie.Any(e => e.Id == id);
         }
+
+        // public ActionResult actorList(){
+        //     dynamic mymodel = new ExpandoObject();  
+        //     mymodel. = GetTeachers();
+        //     mymodel.Teachers = GetTeachers();   
+        // }
     }
 }

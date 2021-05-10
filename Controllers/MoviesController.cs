@@ -26,6 +26,9 @@ namespace Bcc.Controllers
             IQueryable<string> genreQuery = from m in _context.Movie
                                             orderby m.Genre
                                             select m.Genre;
+
+            var actor = from m in _context.Actor select m;
+
             
             var movies = from m in _context.Movie
                             select m;
@@ -43,7 +46,8 @@ namespace Bcc.Controllers
             var movieGenreVM = new MovieGenreViewModel
             {
                 Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
-                Movies = await movies.ToListAsync()
+                Movies = await movies.ToListAsync(),
+                Actors = await actor.ToListAsync(),
             };
             
             return View(movieGenreVM);
@@ -70,6 +74,7 @@ namespace Bcc.Controllers
         // GET: Movies/Create
         public IActionResult Create()
         {
+            ViewData["Id"] = new SelectList(_context.Actor, "name");
             return View();
         }
 
@@ -173,5 +178,12 @@ namespace Bcc.Controllers
         {
             return _context.Movie.Any(e => e.Id == id);
         }
+        //TODO: chamar VIEW do ator para mostrar a lista  fazendo um verificação por id
+        public async Task<IActionResult> GetActors(){
+
+            var bccContext = _context.Actor.Include(a => a.Movie);
+            return View(await bccContext.ToListAsync());
+        }
+       
     }
 }

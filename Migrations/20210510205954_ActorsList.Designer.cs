@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Bcc.Migrations
 {
     [DbContext(typeof(BccContext))]
-    [Migration("20210505225211_ActorMigration")]
-    partial class ActorMigration
+    [Migration("20210510205954_ActorsList")]
+    partial class ActorsList
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,7 +28,9 @@ namespace Bcc.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
-                        .HasColumnType("TEXT");
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasMaxLength(30);
 
                     b.HasKey("Id");
 
@@ -72,7 +74,7 @@ namespace Bcc.Migrations
             modelBuilder.Entity("Bcc.Models.Actor", b =>
                 {
                     b.HasOne("Bcc.Models.Movie", "Movie")
-                        .WithMany("Actor")
+                        .WithMany("Actors")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

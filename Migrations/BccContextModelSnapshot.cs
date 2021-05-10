@@ -26,7 +26,9 @@ namespace Bcc.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
-                        .HasColumnType("TEXT");
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasMaxLength(30);
 
                     b.HasKey("Id");
 
@@ -70,7 +72,7 @@ namespace Bcc.Migrations
             modelBuilder.Entity("Bcc.Models.Actor", b =>
                 {
                     b.HasOne("Bcc.Models.Movie", "Movie")
-                        .WithMany("Actor")
+                        .WithMany("Actors")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

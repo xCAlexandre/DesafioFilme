@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Bcc.Data;
 using Bcc.Models;
 
+
 namespace Bcc.Controllers
 {
     public class ActorsController : Controller
